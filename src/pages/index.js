@@ -1,9 +1,13 @@
 import ProductList from '@containers/ProductList';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
-      <ProductList />
+      <Head>
+        <title>React Shop</title>
+      </Head>
+      {/* <ProductList /> */}
     </>
   );
 }

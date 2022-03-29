@@ -17,27 +17,39 @@ const Header = () => {
 			<nav className={styles.nav}>
 				<Image src={menu} alt="menu" className={styles.menu} />
 				<div className={styles['navbar-left']}>
-					<Link href="/">
+					<Link passHref>
 						<Image src={logo} alt="logo" className={styles['nav-logo']} />
 					</Link>
 					<ul>
 						<li>
-							<a href="/">All</a>
+							<Link href="/">
+								<a>All</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Clothes</a>
+							<Link href="/">
+								<a>Clothes</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Electronics</a>
+							<Link href="/">
+								<a>Electronics</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Furnitures</a>
+							<Link href="/">
+								<a>Furnitures</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Toys</a>
+							<Link href="/">
+								<a>Toys</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Others</a>
+							<Link href="/">
+								<a>Others</a>
+							</Link>
 						</li>
 					</ul>
 				</div>

@@ -9,7 +9,6 @@ const ProductItem = ({ product }) => {
 	const { state, addToCart } = useContext(AppContext);
 
 	const handleClick = item => {
-		console.log('in cart: ', state.cart.includes(item));
 		addToCart(item)
 	}
 
